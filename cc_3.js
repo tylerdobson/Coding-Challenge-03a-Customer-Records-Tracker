@@ -1,6 +1,6 @@
 // Coding Challenge 03a - Customer Records Tracker
 
-// Step 2: Create the customers array with at least three customer objects
+// 
 let customers = [
   {
     name: "Alice Johnson",
@@ -19,7 +19,7 @@ let customers = [
   }
 ];
 
-// Step 3: Add a new customer with .push() and remove the first with .shift()
+// new customer added after
 customers.push({
   name: "David Lee",
   email: "david@example.com",
@@ -28,11 +28,11 @@ customers.push({
 
 customers.shift(); // removes Alice Johnson (the first customer)
 
-// Step 4: Update an existing customer's email and add a new purchase
+// added new purchase
 customers[0].email = "brian.smith@newmail.com"; // update Brian's email
 customers[0].purchases.push("Phone Case");      // add a purchase for Brian
 
-// Step 5: Loop through the array and display each customer's info
+// Loop through the array to display each customer's info
 customers.forEach((customer) => {
   console.log(
     `Name: ${customer.name} | Email: ${customer.email} | Total Purchases: ${customer.purchases.length}`
