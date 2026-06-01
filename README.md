@@ -17,24 +17,11 @@
   - Updating object properties and nested array data
   - Iterating with `.forEach()` and formatting output with template literals
 
-  ## How to Run
-
-  Requires [Node.js](https://nodejs.org/).
-
-  ```bash
-  node cc_3.js
-
   Example Output
 
   Name: Brian Smith | Email: brian.smith@newmail.com | Total Purchases: 2
   Name: Carla Diaz | Email: carla@example.com | Total Purchases: 3
   Name: David Lee | Email: david@example.com | Total Purchases: 1
 
-  Files
 
-  ┌─────────┬────────────────────────────────────────────────────┐
-  │  File   │                    Description                     │
-  ├─────────┼────────────────────────────────────────────────────┤
-  │ cc_3.js │ Main program containing the customer tracker logic │
-  └─────────┴────────────────────────────────────────────────────┘
 
